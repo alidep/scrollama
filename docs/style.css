@@ -15,6 +15,8 @@ font-family: "Tilt Warp", sans-serif;
   font-size: 24px;
 }
 
+
+
 p
 
 {
@@ -101,8 +103,16 @@ nav {
 
 }
 
+
+.intro__hed_top {
+  font-size: 2.5em;
+  margin: 6rem auto 2rem auto;
+
+}
+
 .intro__dek {
-  color: #8a8a8a;
+  color: #4A4A4A;
+font-size: 21px;
   text-align: left;
 }
 
