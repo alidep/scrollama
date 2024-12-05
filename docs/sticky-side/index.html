@@ -150,8 +150,21 @@ inflation is still at <span id="highlightpurple">193%</span><p id="lilnote">(As 
 		</section>
 
 	<section class="basicbitch">
-<iframe width="100%" height="511" frameborder="0"
-  src="https://observablehq.com/d/368dd862f009edb6"></iframe>
+<div id="observablehq-viewof-adjustableY1-66f76e28"></div>
+<div id="observablehq-viewof-adjustableY2-66f76e28"></div>
+<div id="observablehq-chart-66f76e28"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/368dd862f009edb6.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "viewof adjustableY1") return new Inspector(document.querySelector("#observablehq-viewof-adjustableY1-66f76e28"));
+  if (name === "viewof adjustableY2") return new Inspector(document.querySelector("#observablehq-viewof-adjustableY2-66f76e28"));
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-66f76e28"));
+  return ["var2","yValues","xValues"].includes(name);
+});
+</script>
 </section>
 
 <section id="scrolly">
